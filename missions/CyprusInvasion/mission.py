@@ -720,4 +720,23 @@ class CyprusInvasionBlueAirwings(calvinball.blueairwing.BlueAirwings):
                 }
             }
         }
+            "2nd - Akrotiri": {
+                "airbase": "Akrotiri",
+                "warehouse": "Akrotiri Airwing Warehouse#00001",
+                "squadrons": {
+                    "GGD-02": {
+                        "airframe": dcs.planes.MQ_9_Reaper,
+                        "groupSize": 1,
+                        "initialInventory": 1,
+                        "livery": "MQ-9 REAPER",
+                        "loadouts": {
+                            "Empty": "{ AUFTRAG.Type.FACA }"
+                        },
+                        "capabilities": {
+                            "AUFTRAG.Type.FACA": 50
+                        }
+                    }
+                }
+            }
+        }
         return blue_airwings
