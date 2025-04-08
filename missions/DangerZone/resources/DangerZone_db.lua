@@ -34,6 +34,10 @@ MissionDb = {
 							"Teddy FA-18C_hornet Warm 2",
 							"Teddy FA-18C_hornet Warm 3",
 							"Teddy FA-18C_hornet Warm 4",
+							"Teddy A-4E-C Warm 1",
+							"Teddy A-4E-C Warm 2",
+							"Teddy A-4E-C Warm 3",
+							"Teddy A-4E-C Warm 4",
 					},
 					waypoints = {
 						{ 
@@ -68,6 +72,10 @@ MissionDb = {
 							"Stennis FA-18C_hornet Warm 2",
 							"Stennis FA-18C_hornet Warm 3",
 							"Stennis FA-18C_hornet Warm 4",
+							"Stennis A-4E-C Warm 1",
+							"Stennis A-4E-C Warm 2",
+							"Stennis A-4E-C Warm 3",
+							"Stennis A-4E-C Warm 4",
 					},
 					waypoints = {
 						{ 
@@ -12387,36 +12395,6 @@ MissionDb = {
 							}
 						},
 						{
-							name = "Static Big smoke-1#00001",
-							template = {
-								name = "Static Big smoke-1",
-								type = "big_smoke",
-								x = 127184.64768307,
-								y = -169081.54825432,
-								heading = 0.0877298168986,
-								category = "Effects",
-								canCargo = false,
-								shape_name = "",
-								rate = 50,
-								dead = false
-							}
-						},
-						{
-							name = "Static Big smoke-2#00001",
-							template = {
-								name = "Static Big smoke-2",
-								type = "big_smoke",
-								x = 127865.981874,
-								y = -170103.21338777,
-								heading = 0.0877298168986,
-								category = "Effects",
-								canCargo = false,
-								shape_name = "",
-								rate = 50,
-								dead = false
-							}
-						},
-						{
 							name = "Static Container 20ft-13#00001",
 							template = {
 								name = "Static Container 20ft-13",
@@ -17052,6 +17030,10 @@ MissionDb = {
 							"Needs Oar Point MiG-21Bis Warm 2",
 							"Needs Oar Point M-2000C Warm 1",
 							"Needs Oar Point M-2000C Warm 2",
+							"Needs Oar Point A-4E-C Warm 1",
+							"Needs Oar Point A-4E-C Warm 2",
+							"Needs Oar Point A-4E-C Warm 3",
+							"Needs Oar Point A-4E-C Warm 4",
 					}
 				},
 				{
@@ -19783,6 +19765,10 @@ MissionDb = {
 							"Abe FA-18C_hornet Warm 2",
 							"Abe FA-18C_hornet Warm 3",
 							"Abe FA-18C_hornet Warm 4",
+							"Abe A-4E-C Warm 1",
+							"Abe A-4E-C Warm 2",
+							"Abe A-4E-C Warm 3",
+							"Abe A-4E-C Warm 4",
 					},
 					waypoints = {
 						{ 
@@ -19817,6 +19803,10 @@ MissionDb = {
 							"GW FA-18C_hornet Warm 2",
 							"GW FA-18C_hornet Warm 3",
 							"GW FA-18C_hornet Warm 4",
+							"GW A-4E-C Warm 1",
+							"GW A-4E-C Warm 2",
+							"GW A-4E-C Warm 3",
+							"GW A-4E-C Warm 4",
 					},
 					waypoints = {
 						{ 
@@ -22927,16 +22917,16 @@ MissionDb = {
 				warehouse = "Anglo Brigade Warehouse#00001",
 				platoons = {
 					{
-						name = "1GW-Anglo-2",
-						templateGroupName = "RED 1st Anglo 1GW-Anglo-2",
+						name = "1GW-Anglo-3",
+						templateGroupName = "RED 1st Anglo 1GW-Anglo-3",
 						initialInventory = 3,
 						capabilities = {
 							{ mission = AUFTRAG.Type.ONGUARD, performance = 50 },
 						},
 					},
 					{
-						name = "1GW-Anglo-3",
-						templateGroupName = "RED 1st Anglo 1GW-Anglo-3",
+						name = "1GW-Anglo-4",
+						templateGroupName = "RED 1st Anglo 1GW-Anglo-4",
 						initialInventory = 1,
 						capabilities = {
 							{ mission = AUFTRAG.Type.ARTY, performance = 50 },
@@ -23487,7 +23477,7 @@ MissionDb = {
 		blueAlive = 0
 	},
 	devmode = true,
-	lateActivateStatics = false,
+	lateActivateStatics = true,
 	enableConvoys = true,
 	enableAutolase = true,
 	missionName = "DangerZone",

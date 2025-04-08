@@ -1978,7 +1978,7 @@ MissionDb = {
 		blueAlive = 0
 	},
 	devmode = true,
-	lateActivateStatics = false,
+	lateActivateStatics = true,
 	enableConvoys = true,
 	enableAutolase = true,
 	missionName = "AcesHigh",

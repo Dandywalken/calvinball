@@ -1,6 +1,7 @@
 from .a4ec import *
 from .hercules import *
 from .ov10a import *
+from .usamilitaryassetspack import *
 
 def load_mods() -> None:
     """Loads all mods.

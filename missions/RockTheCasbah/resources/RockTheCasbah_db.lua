@@ -146,6 +146,19 @@ MissionDb = {
 							"Al Dhafra AFB Su-25T Cold 2",
 							"Al Dhafra AFB Su-25T Cold 3",
 							"Al Dhafra AFB Su-25T Cold 4",
+							"Al Dhafra AFB A-4E-C Warm 1",
+							"Al Dhafra AFB A-4E-C Warm 2",
+							"Al Dhafra AFB A-4E-C Warm 3",
+							"Al Dhafra AFB A-4E-C Warm 4",
+							"Al Dhafra AFB A-4E-C Warm 5",
+							"Al Dhafra AFB A-4E-C Warm 6",
+							"Al Dhafra AFB A-4E-C Warm 7",
+							"Al Dhafra AFB Bronco-OV-10A Warm 1",
+							"Al Dhafra AFB Bronco-OV-10A Warm 2",
+							"Al Dhafra AFB Bronco-OV-10A Warm 3",
+							"Al Dhafra AFB Bronco-OV-10A Warm 4",
+							"Al Dhafra AFB Hercules Warm 1",
+							"Al Dhafra AFB Hercules Warm 2",
 					}
 				},
 			},
@@ -461,6 +474,8 @@ MissionDb = {
 			"Al Dhafra AFB OH58D Warm G 2",
 			"Al Dhafra AFB OH58D Warm G 3",
 			"Al Dhafra AFB OH58D Warm G 4",
+			"Al Dhafra AFB Hercules Warm 1",
+			"Al Dhafra AFB Hercules Warm 2",
 		}
 	},
 	csar = {
@@ -489,6 +504,10 @@ MissionDb = {
 			"Al Dhafra AFB OH58D Warm G 2",
 			"Al Dhafra AFB OH58D Warm G 3",
 			"Al Dhafra AFB OH58D Warm G 4",
+			"Al Dhafra AFB Bronco-OV-10A Warm 1",
+			"Al Dhafra AFB Bronco-OV-10A Warm 2",
+			"Al Dhafra AFB Bronco-OV-10A Warm 3",
+			"Al Dhafra AFB Bronco-OV-10A Warm 4",
 		}
 	},
 	autolase = {},
@@ -716,7 +735,7 @@ MissionDb = {
 		blueAlive = 0
 	},
 	devmode = true,
-	lateActivateStatics = false,
+	lateActivateStatics = true,
 	enableConvoys = true,
 	enableAutolase = true,
 	missionName = "RockTheCasbah",
