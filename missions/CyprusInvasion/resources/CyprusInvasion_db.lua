@@ -122,8 +122,6 @@ MissionDb = {
 							"Akrotiri SpitfireLFMkIXCW Warm G 1",
 							"Akrotiri I-16 Warm G 1",
 							"Akrotiri MosquitoFBMkVI Warm G 1",
-							"Akrotiri A-4E-C Warm 1",
-							"Akrotiri A-4E-C Warm 2",
 					}
 				},
 			},
@@ -872,7 +870,6 @@ MissionDb = {
 							"Paphos CH-47Fbl1 Warm G 2",
 							"Paphos CH-47Fbl1 Warm G 3",
 							"Paphos CH-47Fbl1 Warm G 4",
-							"Paphos A-4E-C Warm 1",
 					}
 				},
 			},
@@ -1519,8 +1516,6 @@ MissionDb = {
 							"Larnaca CH-47Fbl1 Warm G 2",
 							"Larnaca CH-47Fbl1 Warm G 3",
 							"Larnaca CH-47Fbl1 Warm G 4",
-							"Larnaca A-4E-C Warm 1",
-							"Larnaca A-4E-C Warm 2",
 					}
 				},
 			},
@@ -6430,7 +6425,7 @@ MissionDb = {
 		blueAlive = 0
 	},
 	devmode = true,
-	lateActivateStatics = true,
+	lateActivateStatics = false,
 	enableConvoys = true,
 	enableAutolase = true,
 	missionName = "CyprusInvasion",

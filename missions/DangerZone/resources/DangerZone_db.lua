@@ -34,10 +34,6 @@ MissionDb = {
 							"Teddy FA-18C_hornet Warm 2",
 							"Teddy FA-18C_hornet Warm 3",
 							"Teddy FA-18C_hornet Warm 4",
-							"Teddy A-4E-C Warm 1",
-							"Teddy A-4E-C Warm 2",
-							"Teddy A-4E-C Warm 3",
-							"Teddy A-4E-C Warm 4",
 					},
 					waypoints = {
 						{ 
@@ -72,10 +68,6 @@ MissionDb = {
 							"Stennis FA-18C_hornet Warm 2",
 							"Stennis FA-18C_hornet Warm 3",
 							"Stennis FA-18C_hornet Warm 4",
-							"Stennis A-4E-C Warm 1",
-							"Stennis A-4E-C Warm 2",
-							"Stennis A-4E-C Warm 3",
-							"Stennis A-4E-C Warm 4",
 					},
 					waypoints = {
 						{ 
@@ -17030,10 +17022,6 @@ MissionDb = {
 							"Needs Oar Point MiG-21Bis Warm 2",
 							"Needs Oar Point M-2000C Warm 1",
 							"Needs Oar Point M-2000C Warm 2",
-							"Needs Oar Point A-4E-C Warm 1",
-							"Needs Oar Point A-4E-C Warm 2",
-							"Needs Oar Point A-4E-C Warm 3",
-							"Needs Oar Point A-4E-C Warm 4",
 					}
 				},
 				{
@@ -19765,10 +19753,6 @@ MissionDb = {
 							"Abe FA-18C_hornet Warm 2",
 							"Abe FA-18C_hornet Warm 3",
 							"Abe FA-18C_hornet Warm 4",
-							"Abe A-4E-C Warm 1",
-							"Abe A-4E-C Warm 2",
-							"Abe A-4E-C Warm 3",
-							"Abe A-4E-C Warm 4",
 					},
 					waypoints = {
 						{ 
@@ -19803,10 +19787,6 @@ MissionDb = {
 							"GW FA-18C_hornet Warm 2",
 							"GW FA-18C_hornet Warm 3",
 							"GW FA-18C_hornet Warm 4",
-							"GW A-4E-C Warm 1",
-							"GW A-4E-C Warm 2",
-							"GW A-4E-C Warm 3",
-							"GW A-4E-C Warm 4",
 					},
 					waypoints = {
 						{ 
@@ -23477,7 +23457,7 @@ MissionDb = {
 		blueAlive = 0
 	},
 	devmode = true,
-	lateActivateStatics = true,
+	lateActivateStatics = false,
 	enableConvoys = true,
 	enableAutolase = true,
 	missionName = "DangerZone",

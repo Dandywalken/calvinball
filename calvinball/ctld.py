@@ -4,42 +4,42 @@ import pydcs_extensions
 class Ctld:
     def build(self, m: dcs.Mission):
         m.vehicle_group_platoon(m.country(dcs.countries.CombinedJointTaskForcesBlue.name), "CTLD Inf M4 8", [
-            dcs.vehicles.Infantry.CH_USInfantry_M4,
-            dcs.vehicles.Infantry.CH_USInfantry_M4,
-            dcs.vehicles.Infantry.CH_USInfantry_M4,
-            dcs.vehicles.Infantry.CH_USInfantry_M4,
-            dcs.vehicles.Infantry.CH_USInfantry_FIM92,
-            dcs.vehicles.Infantry.CH_USInfantry_M240,
-            dcs.vehicles.Infantry.CH_USInfantry_FGM148,
-            dcs.vehicles.Infantry.CH_USInfantry_M136
+            pydcs_extensions.CH_USInfantry_M4,
+            pydcs_extensions.CH_USInfantry_M4,
+            pydcs_extensions.CH_USInfantry_M4,
+            pydcs_extensions.CH_USInfantry_M4,
+            pydcs_extensions.CH_USInfantry_FIM92,
+            pydcs_extensions.CH_USInfantry_M240,
+            pydcs_extensions.CH_USInfantry_FGM148,
+            pydcs_extensions.CH_USInfantry_M136
         ], dcs.mapping.Point(180657, -39472, m.terrain)).late_activation = True
 
         m.vehicle_group_platoon(m.country(dcs.countries.CombinedJointTaskForcesBlue.name), "CTLD Infantry AA", [
-            dcs.vehicles.Infantry.CH_USInfantry_FIM92,
-            dcs.vehicles.Infantry.CH_USInfantry_FIM92,
-            dcs.vehicles.Infantry.CH_USInfantry_FIM92,
-            dcs.vehicles.Infantry.CH_USInfantry_M4,
-            dcs.vehicles.Infantry.CH_USInfantry_M4
+            pydcs_extensions.CH_USInfantry_FIM92,
+            pydcs_extensions.CH_USInfantry_FIM92,
+            pydcs_extensions.CH_USInfantry_FIM92,
+            pydcs_extensions.CH_USInfantry_M4,
+            pydcs_extensions.CH_USInfantry_M4
         ], dcs.mapping.Point(180657, -39472, m.terrain)).late_activation = True
 
         m.vehicle_group_platoon(m.country(dcs.countries.CombinedJointTaskForcesBlue.name), "CTLD Infantry AT", [
-            dcs.vehicles.Infantry.CH_USInfantry_M136,
-            dcs.vehicles.Infantry.CH_USInfantry_M136,
-            dcs.vehicles.Infantry.CH_USInfantry_M136,
-            dcs.vehicles.Infantry.CH_USInfantry_M136,
-            dcs.vehicles.Infantry.CH_USInfantry_FGM148,
-            dcs.vehicles.Infantry.CH_USInfantry_M4,
-            dcs.vehicles.Infantry.CH_USInfantry_M4
+            pydcs_extensions.CH_USInfantry_M136,
+            pydcs_extensions.CH_USInfantry_M136,
+            pydcs_extensions.CH_USInfantry_M136,
+            pydcs_extensions.CH_USInfantry_M136,
+            pydcs_extensions.CH_USInfantry_FGM148,
+            pydcs_extensions.CH_USInfantry_M4,
+            pydcs_extensions.CH_USInfantry_M4
         ], dcs.mapping.Point(180657, -39472, m.terrain)).late_activation = True
 
         m.vehicle_group_platoon(m.country(dcs.countries.CombinedJointTaskForcesBlue.name), "CTLD AT SK Special 2", [
-            dcs.vehicles.Infantry.CH_USInfantry_FGM148,
-            dcs.vehicles.Infantry.CH_USInfantry_FGM148
+            pydcs_extensions.CH_USInfantry_FGM148,
+            pydcs_extensions.CH_USInfantry_FGM148
         ], dcs.mapping.Point(180657, -39472, m.terrain)).late_activation = True
 
         m.vehicle_group_platoon(m.country(dcs.countries.CombinedJointTaskForcesBlue.name), "CTLD AA SK Special 2", [
-            dcs.vehicles.Infantry.CH_USInfantry_FIM92,,
-            dcs.vehicles.Infantry.CH_USInfantry_FIM92
+            pydcs_extensions.CH_USInfantry_FIM92,
+            pydcs_extensions.CH_USInfantry_FIM92
         ], dcs.mapping.Point(180657, -39472, m.terrain)).late_activation = True
 
         m.vehicle_group_platoon(m.country(dcs.countries.CombinedJointTaskForcesBlue.name), "CTLD MORTAR", [

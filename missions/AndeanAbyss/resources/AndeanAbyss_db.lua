@@ -152,7 +152,7 @@ MissionDb = {
 		blueAlive = 0
 	},
 	devmode = true,
-	lateActivateStatics = true,
+	lateActivateStatics = false,
 	enableConvoys = true,
 	enableAutolase = true,
 	missionName = "AndeanAbyss",
